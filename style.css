@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Creepster', cursive;
+    src: "https://fonts.googleapis.com/css2?family=Creepster&display=swap";
+  }
+
+body{
+  background:#6a445a;
+  justify-content:center;
+}
+
+.tl{
+  font-family:'Creepster', cursive;
+  text-align: center;
+  font-size: 5vw;
+  color:#081431;
+  margin-bottom:3vh;
+  margin-top:25vh;
+}
+#countdown{
+  font-family:'Creepster', cursive;
+  font-size:2vw;
+  text-align:center;
+  color:#312441;
+}
+.count{
+  font-family:'Creepster', cursive;
+  font-size:1.8vw;
+  text-align:center;
+  color:#9ca1a4;
+}
+.ghost{
+  max-width:4vw;
+  opacity:0%;
+  position:absolute;
+}
+.ghost:hover{
+  opacity:100%;
+}
