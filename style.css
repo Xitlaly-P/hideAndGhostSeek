@@ -36,3 +36,13 @@ body{
 .ghost:hover{
   opacity:100%;
 }
+.container{
+  align-items: center;
+  text-align: center;
+}
+.music{
+  max-height: 25vh;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}

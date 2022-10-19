@@ -20,10 +20,15 @@ var myfunc = setInterval(function() {
 const maxWidth  = window.innerWidth - 50;
 const maxHeight = window.innerHeight - 50;
 var count = 0;
-function found(){
-  count++;
+
+function hide(){
   document.getElementById('ghostt').style.left= Math.floor(Math.random()*maxWidth) +"px";
   document.getElementById('ghostt').style.top= Math.floor(Math.random()*maxHeight) +"px";
+}
+
+function found(){
+  count++;
+  hide();
   document.getElementById('countg').innerHTML = "Ghosts Found: " + count;
   //document.getElementById('out').innerHTML = maxHeight;
 }
