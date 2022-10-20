@@ -20,6 +20,7 @@ var myfunc = setInterval(function() {
 const maxWidth  = window.innerWidth - 50;
 const maxHeight = window.innerHeight - 50;
 var count = 0;
+var vid = false;
 
 function hide(){
   document.getElementById('ghostt').style.left= Math.floor(Math.random()*maxWidth) +"px";
@@ -31,4 +32,15 @@ function found(){
   hide();
   document.getElementById('countg').innerHTML = "Ghosts Found: " + count;
   //document.getElementById('out').innerHTML = maxHeight;
+}
+
+function ytvid(){
+  if(!vid){
+    document.getElementById('something').style.display = "block";
+    vid = true;
+  }
+  else{
+    document.getElementById('something').style.display = "none";
+    vid = false;
+  }
 }

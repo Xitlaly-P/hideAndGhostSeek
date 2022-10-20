@@ -45,4 +45,22 @@ body{
   align-items: center;
   align-self: center;
   text-align: center;
+  display: none;
+}
+.words{
+  font-family:'Creepster', cursive;
+  font-size:1.2vw;
+  text-align:center;
+  color:#312441;
+}
+.words:hover{
+  color:#312441;
+  font-size:1.27vw
+}
+#something{
+  max-height: 25vh;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  display: none;
 }
